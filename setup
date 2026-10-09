@@ -4,6 +4,6 @@ echo "unzipping pant- I mean mnist_data"
 exec unzip mnist_data.zip -d ./input
 
 echo "removing archive"
-exec rm mnist_data.zip
+rm mnist_data.zip
 
 echo "good to go :D"
