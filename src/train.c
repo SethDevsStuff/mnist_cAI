@@ -26,7 +26,7 @@ int main() {
   int epochs = 3;
   int batch_size = 64;
   int thread_count = 4;
-  int training_size = 50000;
+  int training_size = 60000;
 
   create_easy_batch(&easy_net);
   prepare_threads_easy(&easy_net, thread_count);
