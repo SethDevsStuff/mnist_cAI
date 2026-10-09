@@ -1,5 +1,8 @@
 #!/bin/bash
 
+echo "downloading input files"
+curl -L -O "https://raw.githubusercontent.com/SethDevsStuff/mnist_cAI/5f4b4b7bbaf00a9c8f1c93d4f069331fa00f29d9/mnist_data.zip" &&
+
 echo "unzipping pant- I mean mnist_data"
 unzip mnist_data.zip && rm mnist_data.zip
 
