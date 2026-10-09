@@ -1,9 +1,8 @@
 #!/bin/bash
 
 echo "unzipping pant- I mean mnist_data"
-exec unzip mnist_data.zip -d ./input
+unzip mnist_data.zip && rm mnist_data.zip
 
 echo "removing archive"
-rm mnist_data.zip
 
 echo "good to go :D"
